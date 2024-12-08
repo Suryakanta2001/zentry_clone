@@ -8,7 +8,7 @@ import Button from "./Button";
 
 const navItems = ["Nexus", "Vault", "Prologue", "About", "Contact"];
 
-const NavBar = () => {
+const Navbar = () => {
   // State for toggling audio and visual indicator
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
   const [isIndicatorActive, setIsIndicatorActive] = useState(false);
@@ -124,4 +124,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;
